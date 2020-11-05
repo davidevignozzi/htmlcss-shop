@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1000px;
+  height: 800px;
+  background-color: red;
+}
+
+.immagine{
+  width: 330px;
+  height: 400px;
+  background-color: blue;
+  display: inline-block;
+}
