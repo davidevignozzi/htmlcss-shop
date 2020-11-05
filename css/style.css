@@ -6,7 +6,6 @@
 
 .container{
   width: 1000px;
-  background-color: red;
   margin: 0 auto;
 }
 
@@ -18,11 +17,11 @@
 .immagine{
   width: 33%;
   height: 400px;
-  background-color: blue;
   display: inline-block;
   text-align: center;
   position: relative;
 }
+
 
 .sconto-verde{
   background-color: green;
@@ -38,4 +37,17 @@
   position: absolute;
   top: 0;
   right: 15px;
+}
+
+.heart{
+  font-size: 30px;
+  position: absolute;
+  bottom: 40px;
+  right: 45%;
+  color: red;
+  display: none;
+}
+
+.immagine:hover .heart{
+  display: block;
 }
