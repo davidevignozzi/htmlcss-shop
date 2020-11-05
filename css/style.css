@@ -6,13 +6,36 @@
 
 .container{
   width: 1000px;
-  height: 800px;
   background-color: red;
+  margin: 0 auto;
+}
+
+.row{
+  width: 1000px;
+  height: 400px
 }
 
 .immagine{
-  width: 330px;
+  width: 33%;
   height: 400px;
   background-color: blue;
   display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.sconto-verde{
+  background-color: green;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
+.sconto-rosso{
+  background-color: red;
+  font-size: 22px;
+  position: absolute;
+  top: 0;
+  right: 15px;
 }
